@@ -1,10 +1,9 @@
 var express = require('express');
 var router = express.Router();
-var projectsData = require('../data/projects.json');
 
-/* GET home page. */
+/* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('index', {template: 'projects', projectsData});
+  res.render('index', { pageTitle: 'Contact | Ross Keeley Portfolio', template: 'contact'});
 });
 
 module.exports = router;
