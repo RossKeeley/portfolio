@@ -14,9 +14,9 @@
           <%=  projectsData[i].description; %>
         </p>
         <div class="code-lang-tags">
-          <p><%=  projectsData[i].tags.splice(0); %></p>
-          <p><%=  projectsData[i].tags.splice(1); %></p>
-          <p><%=  projectsData[i].tags.splice(2); %></p>
+          <% for (let j = 0; j < projectsData[i].tags.length; j++) { %>
+          <p><%=  projectsData[i].tags[j]; %></p>
+          <% } %>
         </div>
       </div>
     <% } %>
