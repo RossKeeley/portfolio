@@ -1,0 +1,51 @@
+{
+  "projects": [
+    {
+      "title": "Calculator App",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+      "image": "calculator.jpeg",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ReactJS"
+      ]
+    },
+    {
+      "title": "Markdown Previewer",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Random Quote Generator",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Pomodoro Clock",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Drum Machine",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  ]
+}

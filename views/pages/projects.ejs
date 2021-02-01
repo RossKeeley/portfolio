@@ -1,0 +1,6 @@
+<h1>Projects</h1>
+<% for (let i = 0; i < projectsData.length; i++) { %>
+<h2><%=  projectsData[i].title; %></h2>
+<p><%=  projectsData[i].description; %></p>
+<%=  projectsData[i].tags; %>
+<% } %>
