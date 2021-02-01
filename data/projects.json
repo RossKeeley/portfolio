@@ -1,9 +1,8 @@
-{
-  "projects": [
+[
     {
       "title": "Calculator App",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
-      "image": "calculator.jpeg",
+      "image": "/images/calculator.jpeg",
       "tags": [
         "HTML",
         "CSS",
@@ -13,7 +12,8 @@
     },
     {
       "title": "Markdown Previewer",
-      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "image": "/images/markdown-previewer.png",
       "tags": [
         "HTML",
         "CSS",
@@ -22,7 +22,8 @@
     },
     {
       "title": "Random Quote Generator",
-      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "image": "/images/random-quote-generator.png",
       "tags": [
         "HTML",
         "CSS",
@@ -31,7 +32,8 @@
     },
     {
       "title": "Pomodoro Clock",
-      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "image": "/images/pomodoro-clock.png",
       "tags": [
         "HTML",
         "CSS",
@@ -40,7 +42,8 @@
     },
     {
       "title": "Drum Machine",
-      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "image": "/images/drum-machine.png",
       "tags": [
         "HTML",
         "CSS",
@@ -48,4 +51,3 @@
       ]
     }
   ]
-}
