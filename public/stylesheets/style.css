@@ -182,7 +182,7 @@ header ul li a {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 .code-lang-tags p {
@@ -191,6 +191,7 @@ header ul li a {
   margin-right: 5px;
   padding: 0px 5px;
   border-radius: 2px;
+  margin-bottom: 5px;
 }
 
 /* --------------------- CONTACT PAGE --------------------- */
