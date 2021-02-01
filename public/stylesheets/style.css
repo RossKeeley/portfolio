@@ -1,8 +1,143 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
-a {
-  color: #00B7FF;
+section {
+  padding: 100px 80px;
+}
+
+section.contact {
+  padding: 20px;
+}
+
+/* --------------- HEADER MENU --------------- */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+header.sticky {
+  background: #fff;
+  padding: 20px 100px;
+}
+
+header .menu {
+  color: #111;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+}
+
+header ul li a {
+  font-size: 10px;
+  position: relative;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5px;;
+  margin-right: 5px;
+  color: #111;
+  text-decoration: none;
+}
+
+
+/* ----------------- PROJECTS ----------------- */
+.projects {
+
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.heading h2 {
+  font-weight: 400;
+  font-size:
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 12px;
+}
+
+.project-card img {
+  /* max-width: 100%;
+  max-height: 150px; */
+  height: 180px;
+  width: 180px;
+}
+
+.projects .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.projects .content .project-card {
+  padding: 10px 5px;
+  max-width: 180px;
+  margin: 5px 5px 10px 5px;
+  text-align: center;
+  transition: 0.5s;
+  background-color:
+}
+
+.code-lang-tags {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.code-lang-tags p {
+  background-color: #f1f1f1;
+  font-size: 10px;
+  margin-right: 5px;
+  padding: 0px 5px;
+  border-radius: 2px;
 }
