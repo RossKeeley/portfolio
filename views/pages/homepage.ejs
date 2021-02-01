@@ -11,27 +11,4 @@
     <img src="./images/avatar.jpeg" alt="Ross Keeley profile image">
   </div> -->
 </section>
-<section class="projects">
-  <div class="heading">
-    <h3>Projects</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    </p>
-  </div>
-    <div class="content">
-    <% for (let i = 0; i < projectsData.length; i++) { %>
-      <div class="project-card">
-        <img src="<%= projectsData[i].image; %>">
-        <h3><%=  projectsData[i].title; %></h3>
-        <p>
-          <%=  projectsData[i].description; %>
-        </p>
-        <div class="code-lang-tags">
-          <p><%=  projectsData[i].tags[0]; %></p>
-          <p><%=  projectsData[i].tags[1]; %></p>
-          <p><%=  projectsData[i].tags[2]; %></p>
-        </div>
-      </div>
-    <% } %>
-  </div>
-</section>
+<%- include('projects'); %>
