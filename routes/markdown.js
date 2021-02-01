@@ -3,7 +3,7 @@ var router = express.Router();
 
 
 router.get('/', function(req, res, next) {
-  res.render('projects/markdown-previewer-demo', { pageTitle: 'Markdown Previewer | Ross Keeley Portfolio });
+  res.render('projects/markdown-previewer');
 });
 
 module.exports = router;
