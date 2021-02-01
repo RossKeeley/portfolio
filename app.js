@@ -26,7 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', homepageRouter);
 app.use('/about', aboutRouter);
 app.use('/projects', projectsRouter);
-app.use('/about', resumeRouter);
+app.use('/resume', resumeRouter);
 app.use('/contact', contactRouter);
 
 app.get('/projects/:title', (req, res) => {
