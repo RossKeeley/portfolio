@@ -2,7 +2,7 @@
     {
       "title": "Calculator App",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "button-link": "calculator",
+      "buttonLink": "calculator",
       "image": "/images/calculator.jpeg",
       "tags": [
         "HTML",
@@ -14,7 +14,7 @@
     {
       "title": "Markdown Previewer",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "button-link": "markdown-previewer",
+      "buttonLink": "markdown-previewer",
       "image": "/images/markdown-previewer.png",
       "tags": [
         "HTML",
@@ -25,7 +25,7 @@
     {
       "title": "Random Quote Generator",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "button-link": "random-quote-generator",
+      "buttonLink": "random-quote-generator",
       "image": "/images/random-quote-generator.png",
       "tags": [
         "HTML",
@@ -36,7 +36,7 @@
     {
       "title": "Pomodoro Clock",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "button-link": "pomodoro-clock",
+      "buttonLink": "pomodoro-clock",
       "image": "/images/pomodoro-clock.png",
       "tags": [
         "HTML",
@@ -47,7 +47,7 @@
     {
       "title": "Drum Machine",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "button-link": "drum-machine",
+      "buttonLink": "drum-machine",
       "image": "/images/drum-machine.png",
       "tags": [
         "HTML",
