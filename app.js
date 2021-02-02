@@ -10,7 +10,7 @@ var resumeRouter = require('./routes/resume');
 var contactRouter = require('./routes/contact');
 var calculatorRouter = require('./routes/calculator');
 var markdownRouter = require('./routes/markdown');
-var pomodoroRouter = requre('./routes/pomodoro');
+var pomodoroRouter = require('./routes/pomodoro');
 var React = require('react');
 var ReactDOMServer = require('react-dom/server');
 
