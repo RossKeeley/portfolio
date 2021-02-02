@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('index', { pageTitle: 'Contact | Ross Keeley Portfolio', template: 'contact'});
+  res.render('index', { pageTitle: 'Contact | Ross Keeley Portfolio', css: 'style', template: 'contact', javascript: 'main' });
 });
 
 module.exports = router;

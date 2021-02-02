@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <%- include('partials/head'); %>
+    <link rel="stylesheet" href="stylesheets/style.css">
   </head>
 
   <body>
@@ -13,7 +14,7 @@
         <%- include('partials/footer'); %>
     </footer>
     <script type="text/javascript">
-        <%- include('../public/javascripts/projects.js'); %>
+        <%- include(`../public/javascripts/${javascript}.js`); %>
     </script>
   </body>
 </html>
