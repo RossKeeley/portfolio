@@ -29,7 +29,7 @@ app.use('/about', aboutRouter);
 app.use('/projects', projectsRouter);
 app.use('/resume', resumeRouter);
 app.use('/contact', contactRouter);
-app.use('/projects/markdown-previewer', markdownRouter);
+projectsRouter.use('/markdown-previewer', markdownRouter);
 
 // app.get('/projects/:title', (req, res) => {
 //   res.send('Title is ' + req.params.title);
