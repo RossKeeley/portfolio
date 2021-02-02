@@ -1,6 +1,12 @@
 <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
 <script type="text/javascript">
+  window.addEventListener('scroll', () => {
+    var header = document.querySelector('header');
+    header.classList.toggle('sticky', window.scrollY > 0);
+  });
+</script>
+<script type="text/javascript">
   const audio = document.getElementById("beep");
 
   // Class component containing all app components and states
