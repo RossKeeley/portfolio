@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <%- include('partials/head'); %>
     <% if (template === 'pomodoro') { %>
       <%- include('partials/pomodoro-links'); %>
+    <% } else { %>
+      <%- include('partials/head'); %>
     <% } %>
   </head>
 
@@ -15,6 +16,8 @@
     <footer>
         <%- include('partials/footer'); %>
     </footer>
-    <%- include(`../public/javascripts/${javascript}.js`); %>
+    <% if (template !== 'pomodoro') { %>
+      <%- include(`../public/javascripts/${javascript}.js`); %>
+    <% } %>
   </body>
 </html>
