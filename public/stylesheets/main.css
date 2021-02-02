@@ -163,12 +163,17 @@ header ul li a {
 
 .project-card h3 {
   font-size: 15px;
+  font-weight: 600;
   margin-top: 5px;
   margin-bottom: 10px;
 }
 
+.project-card .description {
+  text-align: left;
+}
+
 .project-card p {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .project-card img {
@@ -183,6 +188,7 @@ header ul li a {
   box-shadow: 0 4px 10px 0 rgb(0 0 0 / 12%);
   padding: 10px 10px;
   max-width: 200px;
+  height: 400px;
   margin: 5px 11px 20px 11px;
   text-align: center;
   transition: 0.5s;
@@ -193,7 +199,7 @@ header ul li a {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .code-lang-tags p {
@@ -203,6 +209,25 @@ header ul li a {
   padding: 0px 5px;
   border-radius: 2px;
   margin-bottom: 5px;
+}
+
+.demo-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo-button .btn-project-card {
+  /* position: relative; */
+  background: #2196f3;
+  /* display: inline-block; */
+  color: #fff;
+  /* margin-top: 20px; */
+  padding: 5px 12px;
+  font-size: 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 /* --------------------- CONTACT PAGE --------------------- */
