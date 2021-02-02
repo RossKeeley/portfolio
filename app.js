@@ -8,6 +8,7 @@ var aboutRouter = require('./routes/about');
 var projectsRouter = require('./routes/projects');
 var resumeRouter = require('./routes/resume');
 var contactRouter = require('./routes/contact');
+var calculatorRouter = require('./routes/calculator');
 var markdownRouter = require('./routes/markdown');
 var React = require('react');
 var ReactDOMServer = require('react-dom/server');
@@ -29,6 +30,7 @@ app.use('/about', aboutRouter);
 app.use('/projects', projectsRouter);
 app.use('/resume', resumeRouter);
 app.use('/contact', contactRouter);
+app.use('/calculator', calculatorRouter);
 app.use('/markdown-previewer', markdownRouter);
 
 // app.get('/projects/:title', (req, res) => {
