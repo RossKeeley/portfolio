@@ -18,6 +18,8 @@
     </footer>
     <% if (template !== 'pomodoro') { %>
       <%- include(`../public/javascripts/${javascript}.js`); %>
+    <% } else { %>
+      <%- include('../public/javascripts/main.js'); %>
     <% } %>
   </body>
 </html>
