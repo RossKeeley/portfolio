@@ -10,6 +10,7 @@ var resumeRouter = require('./routes/resume');
 var contactRouter = require('./routes/contact');
 var calculatorRouter = require('./routes/calculator');
 var markdownRouter = require('./routes/markdown');
+var pomodoroRouter = requre('./routes/pomodoro');
 var React = require('react');
 var ReactDOMServer = require('react-dom/server');
 
@@ -32,6 +33,7 @@ app.use('/resume', resumeRouter);
 app.use('/contact', contactRouter);
 app.use('/calculator', calculatorRouter);
 app.use('/markdown-previewer', markdownRouter);
+app.use('/pomodoro-clock', pomodoroRouter);
 
 // app.get('/projects/:title', (req, res) => {
 //   res.send('Title is ' + req.params.title);
