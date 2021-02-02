@@ -1,4 +1,11 @@
 <script type="text/javascript">
+  // Header JS
+  window.addEventListener('scroll', () => {
+    var header = document.querySelector('header');
+    header.classList.toggle('sticky', window.scrollY > 0);
+  });
+
+  // Markdown Previewer JS
   const exampleText = "";
 
   marked.setOptions({breaks: true});
