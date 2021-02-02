@@ -27,7 +27,7 @@ header.sticky {
 }
 
 header .menu {
-  color: #fff;
+  color: #111;
   font-size: 10px;
   text-transform: uppercase;
   text-decoration: none;
@@ -60,7 +60,7 @@ header ul li a {
   margin-bottom: 0;
   margin-left: 5px;;
   margin-right: 5px;
-  color: #fff;
+  color: #111;
   text-decoration: none;
 }
 
@@ -69,3 +69,7 @@ header.sticky ul li a {
 }
 
 /* ---------------- Calculator ---------------- */
+
+#calculator {
+  margin-top: 150px;
+}
