@@ -3,6 +3,8 @@
   <head>
     <% if (template === 'pomodoro-clock') { %>
       <%- include('partials/pomodoro-links'); %>
+    <% } else if (template === 'random-quote-generator') { %>
+      <%- include('partials/random-quote-links'); %>
     <% } else { %>
       <%- include('partials/head'); %>
     <% } %>
@@ -15,7 +17,7 @@
     <footer>
         <%- include('partials/footer'); %>
     </footer>
-    <% if (template !== 'pomodoro-clock') { %>
+    <% if (template !== 'pomodoro-clock' && template !== 'random-quote-generator') { %>
       <%- include(`../public/javascripts/${javascript}.js`); %>
     <% } else { %>
       <%- include('../public/javascripts/main.js'); %>
