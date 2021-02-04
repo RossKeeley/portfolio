@@ -11,9 +11,7 @@
       document.getElementById(key).play();
       document.getElementById("display").innerHTML = kit;
     });
-
   }
-
   sound("clap", "Q", 81);
   sound("open-hh", "W", 87);
   sound("snare-drum", "E", 69);
