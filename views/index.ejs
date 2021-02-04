@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <% if (template === 'pomodoro') { %>
+    <% if (template === 'pomodoro-clock') { %>
       <%- include('partials/pomodoro-links'); %>
     <% } else { %>
       <%- include('partials/head'); %>
@@ -15,7 +15,7 @@
     <footer>
         <%- include('partials/footer'); %>
     </footer>
-    <% if (template !== 'pomodoro') { %>
+    <% if (template !== 'pomodoro-clock') { %>
       <%- include(`../public/javascripts/${javascript}.js`); %>
     <% } else { %>
       <%- include('../public/javascripts/main.js'); %>
