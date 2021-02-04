@@ -27,7 +27,7 @@ header.sticky {
 }
 
 header .menu {
-  color: #111;
+  color: #fff;
   font-size: 10px;
   text-transform: uppercase;
   text-decoration: none;
@@ -60,7 +60,7 @@ header ul li a {
   margin-bottom: 0;
   margin-left: 5px;
   margin-right: 5px;
-  color: #111;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -79,7 +79,13 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 50px;
 }
+
+.container h2 {
+  color: #fff;
+}
+
 textarea{
   width:50%;
   height: 30vh;
