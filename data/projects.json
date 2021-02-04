@@ -29,7 +29,8 @@
       "tags": [
         "HTML",
         "CSS",
-        "JavaScript"
+        "JavaScript",
+        "ReactJS"
       ]
     },
     {
@@ -49,6 +50,51 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "buttonLink": "drum-machine",
       "image": "/images/drum-machine.png",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Folder System",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "buttonLink": "folder-system",
+      "image": "/images/calculator.jpeg",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ReactJS"
+      ]
+    },
+    {
+      "title": "Tweet Box",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "buttonLink": "tweet-box",
+      "image": "/images/calculator.jpeg",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "To-Do List",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "buttonLink": "to-do-list",
+      "image": "/images/calculator.jpeg",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Dice Roller",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "buttonLink": "dice-roller",
+      "image": "/images/calculator.jpeg",
       "tags": [
         "HTML",
         "CSS",
