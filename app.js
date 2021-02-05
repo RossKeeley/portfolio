@@ -8,9 +8,6 @@ var aboutRouter = require('./routes/about');
 var projectsRouter = require('./routes/projects');
 var resumeRouter = require('./routes/resume');
 var contactRouter = require('./routes/contact');
-// var calculatorRouter = require('./routes/calculator');
-// var markdownRouter = require('./routes/markdown-previewer');
-// var pomodoroRouter = require('./routes/pomodoro-clock');
 var React = require('react');
 var ReactDOMServer = require('react-dom/server');
 
@@ -31,19 +28,11 @@ app.use('/about', aboutRouter);
 app.use('/projects', projectsRouter);
 app.use('/resume', resumeRouter);
 app.use('/contact', contactRouter);
-// app.use('/calculator', calculatorRouter);
-// app.use('/markdown-previewer', markdownRouter);
-// app.use('/pomodoro-clock', pomodoroRouter);
-
-// app.get('/projects/:title', (req, res) => {
-//   res.send('Title is ' + req.params.title);
-// });
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
-
 
 // error handler
 app.use(function(err, req, res, next) {

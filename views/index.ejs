@@ -10,13 +10,15 @@
     <% } %>
   </head>
   <body>
-    <main>
-      <%- include('partials/header'); %>
-      <%- include(`pages/${template}`) %>
-    </main>
-    <footer>
-        <%- include('partials/footer'); %>
-    </footer>
+    <div class="cover">
+      <main>
+        <%- include('partials/header'); %>
+        <%- include(`pages/${template}`) %>
+      </main>
+      <footer>
+          <%- include('partials/footer'); %>
+      </footer>
+    </div>
     <% if (template !== 'pomodoro-clock' && template !== 'random-quote-generator') { %>
       <%- include(`../public/javascripts/${javascript}.js`); %>
     <% } else { %>
