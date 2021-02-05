@@ -1,0 +1,39 @@
+<section class="banner">
+  <div class="textBox">
+    <h2>Hello, I'm <br><span>Ross Keeley</span>.</h2>
+    <h3>I'm a developer.</h3>
+    <a href="/about" class="btn">About Me</a>
+    <a href="/projects" class="btn">Projects</a>
+    <a href="/resume" class="btn">Resume</a>
+    <a href="/contact" class="btn">Contact</a>
+  </div>
+</section>
+<section class="projects">
+  <div class="heading">
+    <h2>Projects</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+  </div>
+    <div class="content">
+    <% for (let i = 0; i < projectsData.length; i++) { %>
+      <div class="project-card">
+        <img src="<%= projectsData[i].image; %>">
+        <h3><%=  projectsData[i].title; %></h3>
+        <div class="description">
+          <p>
+            <%=  projectsData[i].description; %>
+          </p>
+        </div>
+        <div class="code-lang-tags">
+          <% for (let j = 0; j < projectsData[i].tags.length; j++) { %>
+          <p><%=  projectsData[i].tags[j]; %></p>
+          <% } %>
+        </div>
+        <div class="demo-button">
+          <a href="/projects/<%= projectsData[i].buttonLink %>" class="btn-project-card">Demo</a>
+        </div>
+      </div>
+    <% } %>
+  </div>
+</section>

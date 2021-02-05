@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
 /* --------------- HEADER MENU --------------- */
-
+/*
 header {
   position: fixed;
   top: 0;
@@ -66,4 +66,4 @@ header ul li a {
 
 header.sticky ul li a {
   color: #111;
-}
+} */
