@@ -1,0 +1,50 @@
+header {
+  /* position: fixed; */
+  top: 0;
+  width: auto;
+  height: 80px;
+  padding: 0px 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  font-family: 'Poppins';
+  background-color: #e3e3e3;
+  .sticky {
+    padding: 20px 12%;
+  }
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  a {
+    color: #111;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+}
+
+
+#menu {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  li {
+    position: relative;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    a {
+      position: relative;
+      display: inline-block;
+      margin: 2px 5px;
+      color: #111;
+      text-decoration: none;
+    }
+  }
+}
