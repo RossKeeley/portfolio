@@ -1,16 +1,20 @@
-<div class="Title">
-  <h1>Markdown Previewer</h1>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.2.7/marked.min.js"></script>
+
+<div class="title">
+  <h2>Markdown Previewer</h2>
 </div>
-<div id="container" id="">
-  <h5>Enter markdown:</h5>
-  <p id="description">Here's a <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">markdown cheatsheet</a> for reference.</p>
+<div class="container">
+  <h3>Enter markdown:</h3>
+  <p id="description">
+    Here's a <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">markdown cheatsheet</a> for reference.
+  </p>
   <hr />
   <textarea id="editor" placeholder="Type here..."></textarea>
   <hr />
   <button id="clearButton">Clear</button>
 </div>
-<div id="container">
-  <h5>Result:</h5>
+<div class="container">
+  <h3>Result:</h3>
   <hr />
   <div id="preview"></div>
   <hr />
