@@ -5,9 +5,8 @@
       <%- include('partials/pomodoro-links'); %>
     <% } else if (template === 'random-quote-generator') { %>
       <%- include('partials/random-quote-links'); %>
-    <% } else { %>
-      <%- include('partials/head'); %>
     <% } %>
+    <%- include('partials/head'); %>
   </head>
   <body>
     <div class="wrapper">
@@ -25,7 +24,7 @@
       <% if (template !== 'pomodoro-clock' && template !== 'random-quote-generator') { %>
         <%- include(`../public/javascripts/${javascript}.js`); %>
       <% } else { %>
-        <%- include('../public/javascripts/main.js'); %>
+        <%- include('../public/javascripts/index.js'); %>
       <% } %>
     </script>
   </body>

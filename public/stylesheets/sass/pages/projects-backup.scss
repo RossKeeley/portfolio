@@ -34,61 +34,6 @@ section.projects {
   /* padding: 80px; */
 }
 
-/* --------------- HEADER MENU --------------- */
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 80px;
-  padding: 20px 12%;
-  z-index: 1000;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  transition: 0.5s;
-}
-
-header.sticky {
-  background: #fff;
-  padding: 20px 12%;
-}
-
-header .menu {
-  color: #111;
-  font-size: 10px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 600;
-  letter-spacing: 2px;
-}
-
-header ul {
-  position: relative;
-  display: flex;
-}
-
-header ul li {
-  position: relative;
-  list-style: none;
-  display: flex;
-  align-items: center;
-
-}
-
-header ul li a {
-  font-size: 10px;
-  position: relative;
-  display: inline-block;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #111;
-  text-decoration: none;
-}
-
 /* ---------------- TOP BANNER ---------------- */
 
 .banner {

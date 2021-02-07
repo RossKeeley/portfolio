@@ -4,11 +4,17 @@
 @import 'partials/index';
 
 body {
+  background-color: #fafafa;
   font-family: 'Poppins';
   margin: 0;
   font-size: 16px;
 }
 
 .wrapper {
-  // top: 0;
+  .container {
+    padding: 0 100px;
+    max-width: 100vw;
+    min-height: 80vh;
+    overflow: hidden;
+  }
 }

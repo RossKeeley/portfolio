@@ -1,0 +1,48 @@
+.banner {
+  position: relative;
+  height: 80vh;
+  background: #f0f0f0;
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -50px;
+}
+
+.banner h2 {
+  font-size: 30px;
+  color: #111;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.banner h2 span {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.banner h3 {
+  font-size: 20px;
+  color: #111;
+  font-weight: 600;
+}
+
+.banner-image img {
+  border-radius: 50%;
+}
+
+/* ------------ TOP BANNER BUTTONS ------------ */
+
+.btn {
+  position: relative;
+  background: #2196f3;
+  display: inline-block;
+  color: #fff;
+  margin-top: 20px;
+  padding: 5px 12px;
+  font-size: 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
