@@ -1,17 +1,17 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
-var homeRouter = require('./routes/home');
-var aboutRouter = require('./routes/about');
-var projectsRouter = require('./routes/projects');
-var resumeRouter = require('./routes/resume');
-var contactRouter = require('./routes/contact');
-var React = require('react');
-var ReactDOMServer = require('react-dom/server');
+const createError = require('http-errors');
+const express = require('express');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const logger = require('morgan');
+const homeRouter = require('./routes/home');
+const aboutRouter = require('./routes/about');
+const projectsRouter = require('./routes/projects');
+const resumeRouter = require('./routes/resume');
+const contactRouter = require('./routes/contact');
+const React = require('react');
+const ReactDOMServer = require('react-dom/server');
 
-var app = express();
+const app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

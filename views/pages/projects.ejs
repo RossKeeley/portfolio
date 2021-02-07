@@ -1,23 +1,26 @@
 <section class="projects">
-  <div class="title">
+  <div class="page-title">
     <h2>Projects</h2>
-    <div class="description">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
+  </div>
+  <div class="page-description">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   </div>
   <div class="container">
     <% for (let i = 0; i < projectsData.length; i++) { %>
       <div class="card">
         <img src="<%= projectsData[i].image; %>">
-        <h3 class="card-title"><%= projectsData[i].title; %></h3>
+        <h2 class="card-title"><%= projectsData[i].title; %></h2>
         <div class="description">
           <p><%= projectsData[i].description; %></p>
-        <!-- <div id="tags"> -->
-          <% for (let j = 0; j < projectsData[i].tags.length; j++) { %>
-          <span class="tags"><%=  projectsData[i].tags[j]; %></span>
-          <% } %>
-        <!-- </div> -->
-          <a href="/projects/<%= projectsData[i].buttonLink %>" class="btn">Demo</a>
+          <div id="tags">
+            <% for (let j = 0; j < projectsData[i].tags.length; j++) { %>
+            <div class="tag"><%=  projectsData[i].tags[j]; %></div>
+            <% } %>
+          </div>
+          <div class="demo">
+            <a href="/projects/<%= projectsData[i].buttonLink %>" class="btn demo">Demo</a>
+            <a href="/projects/<%= projectsData[i].buttonLink %>" class="btn github">GitHub</a>
+          </div>
         </div>
       </div>
     <% } %>

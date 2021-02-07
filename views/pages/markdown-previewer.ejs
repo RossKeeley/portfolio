@@ -1,21 +1,22 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.2.7/marked.min.js"></script>
-
-<div class="title">
+<div class="page-title">
   <h2>Markdown Previewer</h2>
 </div>
-<div class="container">
-  <h3>Enter markdown:</h3>
-  <p id="description">
-    Here's a <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">markdown cheatsheet</a> for reference.
-  </p>
-  <hr />
-  <textarea id="editor" placeholder="Type here..."></textarea>
-  <hr />
-  <button id="clearButton">Clear</button>
+<div class="page-description">
+  <p>Convert your markdown into HTML. Here's a <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">markdown cheatsheet</a> for reference.</p>
 </div>
-<div class="container">
-  <h3>Result:</h3>
-  <hr />
-  <div id="preview"></div>
-  <hr />
+<div class="page-content">
+  <div class="container">
+    <h3>Enter markdown:</h3>
+    <hr />
+    <textarea id="editor" placeholder="Type here..."></textarea>
+    <hr />
+    <br><button id="clearButton" class="btn">Clear</button>
+  </div>
+  <div class="container">
+    <h3>Result:</h3>
+    <hr />
+    <div id="preview"></div>
+    <hr />
+  </div>
 </div>
