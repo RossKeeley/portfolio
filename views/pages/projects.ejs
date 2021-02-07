@@ -1,27 +1,23 @@
 <section class="projects">
-  <div class="heading">
+  <div class="title">
     <h2>Projects</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    </p>
+    <div class="description">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
   </div>
-    <div class="content">
+  <div class="container">
     <% for (let i = 0; i < projectsData.length; i++) { %>
-      <div class="project-card">
+      <div class="card">
         <img src="<%= projectsData[i].image; %>">
-        <h3><%=  projectsData[i].title; %></h3>
+        <h3 class="card-title"><%= projectsData[i].title; %></h3>
         <div class="description">
-          <p>
-            <%=  projectsData[i].description; %>
-          </p>
-        </div>
-        <div class="code-lang-tags">
+          <p><%= projectsData[i].description; %></p>
+        <!-- <div id="tags"> -->
           <% for (let j = 0; j < projectsData[i].tags.length; j++) { %>
-          <p><%=  projectsData[i].tags[j]; %></p>
+          <span class="tags"><%=  projectsData[i].tags[j]; %></span>
           <% } %>
-        </div>
-        <div class="demo-button">
-          <a href="/projects/<%= projectsData[i].buttonLink %>" class="btn-project-card">Demo</a>
+        <!-- </div> -->
+          <a href="/projects/<%= projectsData[i].buttonLink %>" class="btn">Demo</a>
         </div>
       </div>
     <% } %>

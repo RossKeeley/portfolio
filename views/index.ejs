@@ -11,10 +11,18 @@
   <body>
     <div class="wrapper">
         <!-- HEADER -->
-        <%- include('partials/header'); %>
-        <div class="container">
-          <%- include(`pages/${template}`) %>
+        <div id="header">
+          <%- include('partials/header'); %>
         </div>
+        <!-- BANNER -->
+        <% if (template === 'home') { %>
+          <%- include('partials/banner'); %>
+        <% } %>
+        <!-- TEMPLATE CONTENT -->
+        <div class="container">
+          <%- include(`pages/${template}`); %>
+        </div>
+        <!-- FOOTER -->
         <div id="footer">
           <%- include('partials/footer'); %>
         </div>
