@@ -148,14 +148,14 @@ class App extends React.Component {
 
     return (
       <div>
-        <div className="flex">
+        <div className="container">
           {/* Rendering the break and session length controllers to the UI with the SetTimer stateless functional component and adding props */}
           <SetTimer {...breakProps} />
           <SetTimer {...sessionProps} />
         </div>
         {/* Rendering the clock timer countdown with controls to the UI */}
-        <div className="clock-container" id="clockContainer">
-          <h1 id="timer-label">{currentTimer}</h1>
+        <div className="clockcontainer">
+          <span id="timer-label">{currentTimer}</span>
           <span id="time-left">{this.convertTime(clockTime)}</span>
           <div className="flex">
             <button id="start_stop" onClick={this.handlePlayPause}>
@@ -169,24 +169,24 @@ class App extends React.Component {
       </div>
     );
   }
-  };
-  // Stateless functional component to create the break and session length controllers
-  const SetTimer = (props) => {
+};
+// Stateless functional component to create the break and session length controllers
+const SetTimer = (props) => {
   const id = props.title.toLowerCase();
   return (
     <div className="timer-container">
-      <h2 id={`${id}-label`}>{props.title} Length</h2>
-      <div className="flex actions-wrapper">
-        <button id={`${id}-decrement`} onClick={props.handleDecrement}>
+      <h3>{props.title} Length</h3>
+      <div className="actions-wrapper">
+        <button className="btn" id={`${id}-decrement`} onClick={props.handleDecrement}>
           <i className="fas fa-arrow-down" />
         </button>
         <span id={`${id}-length`}>{props.count}:00</span>
-        <button id={`${id}-increment`} onClick={props.handleIncrement}>
+        <button className="btn" id={`${id}-increment`} onClick={props.handleIncrement}>
           <i className="fas fa-arrow-up" />
         </button>
       </div>
     </div>
   );
-  }
-  // ReactDOM rendering API
-  ReactDOM.render(<App />, document.getElementById('app'));
+}
+// ReactDOM rendering API
+ReactDOM.render(<App />, document.getElementById('app'));
