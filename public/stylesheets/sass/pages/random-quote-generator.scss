@@ -3,20 +3,32 @@ body {
   background-color: pink;
 }
 
+.container {
+  min-width: 660px;
+}
+
 #quote-box {
-  min-width: 300px;
-  max-width: 500px;
-/*   width: auto; */
-/*   min-height: 200px; */
+  display: flex;
+  margin: auto;
   height: auto;
-  margin: 10% auto;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
   background-color: white;
   padding: 30px;
   border-radius: 8px;
 }
 
-#container {
-  min-width: 280px;
+.quote {
+  padding: 0px 30px;
+  min-width: 400px;
+  min-height: 200px;
+  text-align: justify;
+}
+
+#author {
+  display: block;
+  text-align: right;
 }
 
 #text {
@@ -24,32 +36,22 @@ body {
 }
 
 #button-box {
-  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
 }
 
-#tweet-quote {
-  background-color: #1DA1F2;
-  border-radius: 5px;
-  border: none;
-  padding: 5px 15px;
+#new-quote:focus {
+  outline: 0;
 }
 
 .fa-twitter {
   background-color: #1DA1F2;
-  font-size: 15px;
   padding-right: 5px;
   color: white;
 }
 
-#new-quote {
-  background-color: #1DA1F2;
-  border-radius: 5px;
-  border: none;
-  padding: 5px 15px;
-}
-
 .fa-random {
-  font-size: 15px;
   color: white;
   padding-right: 5px;
 }
