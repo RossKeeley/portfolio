@@ -1,0 +1,32 @@
+body {
+  background-color: #AEB8FE;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.dice {
+  width: 260px;
+  height: 260px;
+  border-radius: 10px;
+  background-color: #EFE5DC;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12.5px;
+  .dot {
+    border-radius: 50%;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    margin: 12.5px;
+  }
+  .dice div {
+    width: 60px;
+    height: 60px;
+    margin: 12.5px;
+  }
+}

@@ -1,7 +1,7 @@
 [
     {
       "title": "Calculator App",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Use this calculator to perform basic addition, subtraction, division, and multiplication.",
       "buttonLink": "calculator",
       "image": "/images/calculator.jpeg",
       "tags": [
@@ -12,7 +12,7 @@
     },
     {
       "title": "Markdown Previewer",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Insert your markdown content and preview it in HTML.",
       "buttonLink": "markdown-previewer",
       "image": "/images/markdown-previewer.png",
       "tags": [
@@ -23,7 +23,7 @@
     },
     {
       "title": "Random Quote Generator",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Need some inspiration? Use this random quote generator.",
       "buttonLink": "random-quote-generator",
       "image": "/images/random-quote-generator.png",
       "tags": [
@@ -35,7 +35,7 @@
     },
     {
       "title": "Pomodoro Clock",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Stay focused by setting a focus session and break.",
       "buttonLink": "pomodoro-clock",
       "image": "/images/pomodoro-clock.png",
       "tags": [
@@ -47,7 +47,7 @@
     },
     {
       "title": "Drum Machine",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Don't have a drum? Fear not, here's a drum machine. Knock yourself out!",
       "buttonLink": "drum-machine",
       "image": "/images/drum-machine.png",
       "tags": [
@@ -57,20 +57,8 @@
       ]
     },
     {
-      "title": "Folder System",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "buttonLink": "folder-system",
-      "image": "/images/calculator.jpeg",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "ReactJS"
-      ]
-    },
-    {
       "title": "Tweet Box",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Just a mockup of sending out a tweet. Except I won't let you tweet from my account.",
       "buttonLink": "tweet-box",
       "image": "/images/calculator.jpeg",
       "tags": [
@@ -81,7 +69,7 @@
     },
     {
       "title": "To-Do List",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Add items to your To-Do List and get them done.",
       "buttonLink": "to-do-list",
       "image": "/images/calculator.jpeg",
       "tags": [
@@ -92,7 +80,7 @@
     },
     {
       "title": "Dice Roller",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Here's a six-sided di incase you lost yours.",
       "buttonLink": "dice-roller",
       "image": "/images/calculator.jpeg",
       "tags": [

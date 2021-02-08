@@ -3,7 +3,7 @@
     <h2>Projects</h2>
   </div>
   <div class="page-description">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Explore the projects I've worked on!</p>
   </div>
   <div class="container">
     <% for (let i = 0; i < projectsData.length; i++) { %>
@@ -17,10 +17,10 @@
             <div class="tag"><%=  projectsData[i].tags[j]; %></div>
             <% } %>
           </div>
-          <div class="demo">
+        </div>
+        <div class="card-buttons">
             <a href="/projects/<%= projectsData[i].buttonLink %>" class="btn-a demo">Demo</a>
             <a href="/projects/<%= projectsData[i].buttonLink %>" class="btn-a github">GitHub</a>
-          </div>
         </div>
       </div>
     <% } %>
