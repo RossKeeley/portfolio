@@ -154,14 +154,14 @@ class App extends React.Component {
           <SetTimer {...sessionProps} />
         </div>
         {/* Rendering the clock timer countdown with controls to the UI */}
-        <div className="clockcontainer">
-          <span id="timer-label">{currentTimer}</span>
+        <div className="clock-container">
+          <h3 id="timer-label">{currentTimer}</h3>
           <span id="time-left">{this.convertTime(clockTime)}</span>
           <div className="flex">
-            <button id="start_stop" onClick={this.handlePlayPause}>
+            <button id="start_stop" className="btn" onClick={this.handlePlayPause}>
               <i className={`fas fa-${isPlaying ? "pause" : "play"}`} />
             </button>
-            <button id="reset" onClick={this.handleReset}>
+            <button id="reset" className="btn" onClick={this.handleReset}>
               <i className="fas fa-sync" />
             </button>
           </div>
