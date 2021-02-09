@@ -9,10 +9,19 @@
     fill: none;
   }
 
-  #header {
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
     width: 100%;
+  }
+
+  .banner {
+    width: 60%;
     height: 80px;
-    padding: 0 15px;
+    padding: 5px 15px;
     z-index: 5;
     background: #25b99a;
     /*box-shadow: x y blur rgba(color setting)*/
@@ -21,18 +30,17 @@
     border-bottom-left-radius: 10px;
   }
 
-  #header input {
-    width: 452px;
+  .banner input {
+    width: 100%;
     height: 50px;
     float: left;
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
     text-indent: 18px;
     /* The text indent isn't defined in here so that the text will overflow
     to the left, showing the user that there is more text out of view
     to the left */
-    padding: 15px 60px 0px 0px;
     background: rgba(255,255,255,0.2);
     background-position: 15px 15px 15px 15px;
     border-radius: 5px 25px 25px 5px;
@@ -41,12 +49,11 @@
     outline: none;
   }
 
-  #header button {
+  .banner button {
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 23px;
-    right: 20px;
+    right: 15px;
     z-index: 2;
     border-radius: 25px;
     background: #fff;
@@ -56,7 +63,7 @@
     cursor: pointer;
   }
 
-  #header button svg {
+  .banner button svg {
     width: 16px;
     height: 16px;
     position: absolute;
@@ -65,12 +72,12 @@
     margin: -8px 0 0 -8px;
   }
 
-  #header button svg .fill {
+  .banner button svg .fill {
     fill: #25b99a;
   }
 
   .container {
-    width: 100%;
+    width: 60%;
     float: left;
     padding: 15px;
   }
@@ -82,7 +89,7 @@
   }
 
   ul.todo {
-    width: 380px;
+    width: 80%;
     float: left;
   }
 
