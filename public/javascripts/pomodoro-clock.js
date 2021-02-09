@@ -148,7 +148,7 @@ class App extends React.Component {
 
     return (
       <div>
-        <div className="container">
+        <div className="actions-container">
           {/* Rendering the break and session length controllers to the UI with the SetTimer stateless functional component and adding props */}
           <SetTimer {...breakProps} />
           <SetTimer {...sessionProps} />

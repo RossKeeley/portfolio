@@ -1,5 +1,11 @@
+@import '../partials/variables';
+
 body {
   background-color: #4f8999;
+}
+
+.page-title {
+  color: $ghost;
 }
 
 .container {

@@ -3,7 +3,7 @@
       "title": "Calculator App",
       "description": "Use this calculator to perform basic addition, subtraction, division, and multiplication.",
       "buttonLink": "calculator",
-      "image": "/images/calculator.jpeg",
+      "image": "/images/calculator.png",
       "tags": [
         "HTML",
         "CSS",
@@ -60,7 +60,7 @@
       "title": "Tweet Box",
       "description": "Just a mockup of sending out a tweet. Except I won't let you tweet from my account.",
       "buttonLink": "tweet-box",
-      "image": "/images/calculator.jpeg",
+      "image": "/images/tweet-box.png",
       "tags": [
         "HTML",
         "CSS",
@@ -71,7 +71,7 @@
       "title": "To-Do List",
       "description": "Add items to your To-Do List and get them done.",
       "buttonLink": "to-do-list",
-      "image": "/images/calculator.jpeg",
+      "image": "/images/to-do.png",
       "tags": [
         "HTML",
         "CSS",
@@ -82,7 +82,7 @@
       "title": "Dice Roller",
       "description": "Here's a six-sided di incase you lost yours.",
       "buttonLink": "dice-roller",
-      "image": "/images/calculator.jpeg",
+      "image": "/images/dice.png",
       "tags": [
         "HTML",
         "CSS",
