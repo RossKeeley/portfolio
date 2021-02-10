@@ -8,8 +8,8 @@ const aboutRouter = require('./routes/about');
 const projectsRouter = require('./routes/projects');
 const resumeRouter = require('./routes/resume');
 const contactRouter = require('./routes/contact');
-const React = require('react');
-const ReactDOMServer = require('react-dom/server');
+// const React = require('react');
+// const ReactDOMServer = require('react-dom/server');
 
 const app = express();
 
