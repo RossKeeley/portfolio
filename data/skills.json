@@ -1,0 +1,33 @@
+[
+  {
+    "title": "HTML and CSS",
+    "tags": [
+      "HTML",
+      "CSS",
+      "Sass",
+      "Flexbox",
+      "CSS Grid",
+      "Bootstrap"
+    ]
+  },
+  {
+    "title": "Front End",
+    "tags": [
+      "JavaScript",
+      "ES6",
+      "React.js",
+      "Ajax",
+      "D3",
+      "API"
+    ]
+  },
+  {
+    "title": "Back End",
+    "tags": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose"
+    ]
+  }
+]

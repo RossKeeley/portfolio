@@ -1,1 +1,28 @@
-<h1>About Page</h1>
+<div id="about">
+  <!-- About -->
+  <div class="container">
+    <div class="title">
+      <h2>About Me</h2>
+    </div>
+    <p>
+      Tech has transformed the way we live, work, and connect with others. With the Covid epidemic, the value of technology has become more relevant now than ever before.
+    </p>
+    <p>I specialize in javascript, reactjs, node, express, html, css</p>
+    <div class="contact">
+      <a href="#" class="fa fa-linkedin"></a>
+    </div>
+  </div>
+  <!-- Skills -->
+  <div class="container">
+    <div class="title">
+      <h2>Skills</h2>
+    </div>
+    <div class="languages">
+      <% for (let i = 0; i < skillsData.length; i++) { %>
+        <div class="">
+          <p><%= skillsData[i].tags; %></p>
+        </div>
+      <% } %>
+    </div>
+  </div>
+</div>

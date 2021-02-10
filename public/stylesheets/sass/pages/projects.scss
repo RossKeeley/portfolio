@@ -1,7 +1,7 @@
 .projects  {
   .container {
     display: grid;
-    grid-gap: 40px;
+    grid-gap: 35px;
     grid-template-columns: repeat(auto-fill, 465px);
     align-items: center;
   }
@@ -23,8 +23,9 @@
 }
 
 .card-buttons {
+  position: absolute;
   text-align: center;
-  width: 100%;
+  left: 150px;
   bottom: 15px;
 }
 
