@@ -4,6 +4,7 @@
       "description": "Use this calculator to perform basic addition, subtraction, division, and multiplication.",
       "buttonLink": "calculator",
       "image": "/images/calculator.png",
+      "github": "https://github.com/RossKeeley/calculator",
       "tags": [
         "HTML",
         "CSS",
@@ -15,6 +16,7 @@
       "description": "Insert your markdown content and preview it in HTML.",
       "buttonLink": "markdown-previewer",
       "image": "/images/markdown-previewer.png",
+      "github": "https://github.com/RossKeeley/markdown-previewer",
       "tags": [
         "HTML",
         "CSS",
@@ -26,6 +28,7 @@
       "description": "Need some inspiration? Use this random quote generator.",
       "buttonLink": "random-quote-generator",
       "image": "/images/random-quote-generator.png",
+      "github": "https://github.com/RossKeeley/random-quote-machine",
       "tags": [
         "HTML",
         "CSS",
@@ -38,6 +41,7 @@
       "description": "Stay focused by setting a focus session and break.",
       "buttonLink": "pomodoro-clock",
       "image": "/images/pomodoro-clock.png",
+      "github": "https://github.com/RossKeeley/pomodoro-clock-timer",
       "tags": [
         "HTML",
         "CSS",
@@ -50,6 +54,7 @@
       "description": "Don't have a drum? Fear not, here's a drum machine. Knock yourself out!",
       "buttonLink": "drum-machine",
       "image": "/images/drum-machine.png",
+      "github": "https://github.com/RossKeeley/drum-machine",
       "tags": [
         "HTML",
         "CSS",
@@ -61,6 +66,7 @@
       "description": "Just a mockup of sending out a tweet. Except I won't let you tweet from my account.",
       "buttonLink": "tweet-box",
       "image": "/images/tweet-box.png",
+      "github": "https://github.com/RossKeeley/tweetBox",
       "tags": [
         "HTML",
         "CSS",
@@ -72,6 +78,7 @@
       "description": "Add items to your To-Do List and get them done.",
       "buttonLink": "to-do-list",
       "image": "/images/to-do.png",
+      "github": "https://github.com/RossKeeley/todo-app",
       "tags": [
         "HTML",
         "CSS",
@@ -83,6 +90,7 @@
       "description": "Here's a six-sided di incase you lost yours.",
       "buttonLink": "dice-roller",
       "image": "/images/dice.png",
+      "github": "https://github.com/RossKeeley/scrimba-challenges",
       "tags": [
         "HTML",
         "CSS",

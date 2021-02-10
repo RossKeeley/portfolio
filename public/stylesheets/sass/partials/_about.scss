@@ -1,15 +1,23 @@
 #about {
   padding: 50px 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-start;
   flex-direction: row;
   background-color: #fff;
   flex-wrap: wrap;
   .container {
+    height: 500px;
     width: 45%;
     min-width: 440px;
     padding: 20px 15px 30px;
+    .description {
+      top: 50%;
+      p {
+        text-align: justify;
+        margin-bottom: 15px;
+      }
+    }
   }
 }
 
@@ -17,7 +25,6 @@
   .contact {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 25px;
     height: 60px;
     a {
@@ -51,6 +58,8 @@
       text-align: center;
     }
     p {
+      text-align: center;
+      font-weight: 500;
       margin: 6px;
       padding: 0 5px;
       line-height: 35px;
