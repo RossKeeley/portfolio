@@ -5,11 +5,18 @@
       <h2>About Me</h2>
     </div>
     <p>
-      Tech has transformed the way we live, work, and connect with others. With the Covid epidemic, the value of technology has become more relevant now than ever before.
+      My name is Ross and I am a full stack developer based in London.
+      <br />
+      <br />
+      Tech has transformed the way we live, work, and connect with others. Today, it's value has become more relevant than ever before, and this is what led me to begin a career in software development.
+      <br />
+      <br />
+      I'm a naturally curious and creative person, with a background in science that has greatly lended to my analyitcal side.
     </p>
-    <p>I specialize in javascript, reactjs, node, express, html, css</p>
     <div class="contact">
-      <a href="#" class="fa fa-linkedin"></a>
+      <a href="https://www.linkedin.com/in/rosskeeley" target="_blank" class="fab fa-linkedin"></a>
+      <a href="mailto:rjkeeley@gmail.com" target="_blank" class="far fa-envelope"></a>
+      <a href="https://github.com/rosskeeley" target="_blank" class="fab fa-github"></a>
     </div>
   </div>
   <!-- Skills -->
@@ -19,8 +26,11 @@
     </div>
     <div class="languages">
       <% for (let i = 0; i < skillsData.length; i++) { %>
-        <div class="">
-          <p><%= skillsData[i].tags; %></p>
+        <div class="skills-card">
+          <h3><%= skillsData[i].title %></h3>
+          <% for (let j = 0; j < skillsData[i].tags.length; j++) { %>
+          <p><%= skillsData[i].tags[j]; %></p>
+          <% } %>
         </div>
       <% } %>
     </div>

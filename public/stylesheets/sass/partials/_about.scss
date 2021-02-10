@@ -3,11 +3,58 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-direction: row;
   background-color: #fff;
-  // flex-wrap: wrap;
+  flex-wrap: wrap;
   .container {
-    width: 50%;
-    min-width: 200px;
+    width: 45%;
+    min-width: 440px;
+    padding: 20px 15px 30px;
+  }
+}
+
+.container {
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    height: 60px;
+    a {
+      display: inline-block;
+      font-size: 40px;
+      color: #000;
+      background-color: #fff;
+      margin: 0px 15px;
+      transition: 0.5s;
+    }
+
+    a:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  .skills-card {
+    width: 30%;
+    margin: 0px 10px;
     padding: 15px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 12%);
+    h3 {
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-top: 5px;
+      text-align: center;
+    }
+    p {
+      margin: 6px;
+      padding: 0 5px;
+      line-height: 35px;
+      background-color: #59db2a47;
+    }
   }
 }
