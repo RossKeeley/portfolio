@@ -51,7 +51,7 @@ class App extends React.Component {
             <a id="tweet-quote" className="btn-a" target="_blank" href={tweetURL}>
               <i className="fab fa-twitter"></i> Tweet
             </a>
-            <button id="new-quote" className="btn" onClick={this.getRandomIndex}>
+            <button id="new-quote" className="btn-a" onClick={this.getRandomIndex}>
               <i className="fas fa-random"></i> Get Quote
             </button>
           </div>

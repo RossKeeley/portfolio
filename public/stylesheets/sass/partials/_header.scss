@@ -1,7 +1,6 @@
+// Main header container
 header {
-  /* position: fixed; */
   top: 0;
-  // position: fixed;
   width: auto;
   height: 80px;
   padding: 0px 20px;
@@ -10,42 +9,42 @@ header {
   justify-content: space-between;
   align-items: center;
   transition: 0.5s;
-  // background-color: #e3e3e3;
   background-color: #fff;
-  .sticky {
-    // padding: 20px;
-  }
-}
-
-#logo {
-  display: flex;
-  align-items: center;
-  a {
-    color: #111;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-decoration: none;
-  }
-}
-
-
-#menu {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
-  li {
-    position: relative;
-    list-style: none;
+  // Left side container
+  // Page Title or Logo
+  #logo {
     display: flex;
     align-items: center;
+    // Left side title or logo
     a {
-      position: relative;
-      display: inline-block;
-      margin: 2px 5px;
       color: #111;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 2px;
       text-decoration: none;
+    }
+  }
+  // Right side container
+  // Navigation menu unordered list
+  #menu {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    // List item
+    li {
+      position: relative;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      // Link within list item
+      a {
+        position: relative;
+        display: inline-block;
+        margin: 2px 5px;
+        color: #111;
+        text-decoration: none;
+      }
     }
   }
 }

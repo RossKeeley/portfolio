@@ -29,6 +29,7 @@ a {
   text-decoration: none;
 }
 
+// Applying to the main content of the page excluding partials
 .wrapper {
   background-color: #f5f6ff;
   #main {
@@ -39,23 +40,13 @@ a {
   }
 }
 
-// .page-title {
-//   h2 {
-//     font-size: 30px;
-//     text-align: center;
-//   }
-// }
-
+// Description in the project pages when it is present
 .page-description {
   text-align: center;
   padding-bottom: 30px;
 }
 
-.page-content {
-  margin: auto;
-  width: 70%;
-}
-
+// Reusable button styling for blue button, white font
 .btn-a {
   position: relative;
   background-color: #2196f3;
@@ -65,24 +56,6 @@ a {
   text-decoration: none;
   letter-spacing: 1px;
   font-weight: 400;
-}
-
-.btn {
-  font-size: 16px;
-  background-color: #2196f3;
-  color: #fff;
-  padding: 10px 12px;
-  text-decoration: none;
-  letter-spacing: 1px;
-  font-weight: 400;
   border: none;
-}
-
-.demo {
-  text-align: center;
-  // margin-right: 12px;
-}
-
-.github {
-  background-color: #58c22d;
+  border-radius: 2px;
 }
