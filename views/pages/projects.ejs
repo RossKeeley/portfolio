@@ -8,7 +8,9 @@
   <div class="container">
     <% for (let i = 0; i < projectsData.length; i++) { %>
       <div class="card">
-        <img src="<%= projectsData[i].image; %>">
+        <a href="/projects/<%= projectsData[i].buttonLink %>">
+          <img src="<%= projectsData[i].image; %>">
+        </a>
         <h2 class="card-title"><%= projectsData[i].title; %></h2>
         <div class="description">
           <p><%= projectsData[i].description; %></p>
@@ -19,7 +21,6 @@
           </div>
         </div>
         <div class="card-buttons">
-            <a href="/projects/<%= projectsData[i].buttonLink %>" class="btn-a demo"><i class="fas fa-gamepad"></i>Demo</a>
             <a href="<%= projectsData[i].github %>" target="_blank" class="btn-a github"><i class="fab fa-github"></i>GitHub</a>
         </div>
       </div>
