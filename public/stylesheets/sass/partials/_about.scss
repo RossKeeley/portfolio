@@ -24,19 +24,20 @@
   .contact {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
     margin-top: 25px;
-    height: 60px;
+    height: 100px;
     a {
       display: inline-block;
       font-size: 40px;
       color: #000;
       background-color: #fff;
-      margin: 0px 15px;
+      margin: 0px 20px;
       transition: 0.5s;
     }
 
     a:hover {
-      transform: scale(1.2);
+      transform: scale(1.3);
     }
   }
 }
