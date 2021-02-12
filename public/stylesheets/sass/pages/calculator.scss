@@ -7,100 +7,101 @@
 .page-title {
   color: $ghost;
 }
-
+// CALCULATOR CONTAINER
+// Container enclosing all calculator html
 .container {
   width: 400px;
   margin: auto;
   background-color: #dedddc;
   padding: 20px;
   border-radius: 10px;
-}
-
-.display-screen {
-  width: 360px;
-  margin: 15px auto 20px;
-  height: 110px;
-  background-color: #9dbc0f;
-  letter-spacing: 2px;
-  font-size: 35px;
-  font-family: 'Arial';
-  box-shadow: inset 0px 0px 3px 2px rgba(0,0,0,0.3);
-  #output {
-    height: 40px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 10px 20px 5px;
+  // DISPLAY SCREEN CONTAINER
+  // Output Display Screen on top of calculator body
+  .display-screen {
+    width: 360px;
+    margin: 15px auto 20px;
+    height: 110px;
+    background-color: #9dbc0f;
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-family: 'Arial';
+    box-shadow: inset 0px 0px 3px 2px rgba(0,0,0,0.3);
+    // Output Section of Screen
+    // Displays full calculation
+    #output {
+      height: 40px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 10px 20px 5px;
+    }
+    // Displays curent number, operator, or result
+    #display {
+      height: 40px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 5px 20px 10px;
+    }
   }
-  #display {
-    height: 40px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 5px 20px 10px;
+  // BUTTONS CONTAINER
+  // Container for all buttons on calculator
+  .buttons {
+    width: 360px;
+    margin: 15px auto;
+    // 4 X 5 Grid layout for buttons
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+    grid-template-rows: 90px 90px 90px 90px 90px;
+    grid-auto-flow: row;
+    // Clear button grid position and color
+    #clear {
+      grid-column: 1 / 3;
+      background-color: #e33939;
+    }
+    // Equals button grid position and color
+    #equals {
+      grid-column: 4;
+      grid-row: 6 / 4;
+      color: #ffffff;
+      background-color: #9d3ca9;
+    }
+    // Zero button grid position, width, and color
+    #zero {
+      grid-column: 3 / 1;
+      grid-row: 5;
+      width: 100%;
+    }
+    // Period button grid position
+    #period {
+      grid-column: 5 / 1;
+      grid-row: 5;
+    }
+    // GROUPS OF BUTTONS
+    // All operator buttons
+    .operator {
+      background-color: #a5a5a5;
+      color: #ffffff;
+    }
+    // All number buttons
+    .number {
+      background-color: #333333;
+      color: white;
+    }
+    // All buttons
+    button {
+      width: 100%;
+      height: 100%;
+      font-family: 'Lato';
+      font-size: 35px;
+      border-radius: 0;
+      border-style: 1px solid rgba(0,0,0,0.2);
+      // box-shadow: inset 0px 0px 2px 1px rgba(0,0,0,0.2);
+    }
+    // All buttons when clicked
+    button:focus {
+      outline:0;
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    }
   }
-}
-
-.buttons {
-  width: 360px;
-  margin: 15px auto;
-  display: grid;
-  grid-template-columns: 90px 90px 90px 90px;
-  grid-template-rows: 90px 90px 90px 90px 90px;
-  grid-auto-flow: row;
-}
-
-#clear {
-  grid-column: 1 / 3;
-  // grid-row: 1;
-}
-
-#equals {
-  grid-column: 4;
-  grid-row: 6 / 4;
-}
-
-#zero {
-  grid-column: 3 / 1;
-  grid-row: 5;
-  width: 100%;
-}
-
-#period {
-  grid-column: 5 / 1;
-  grid-row: 5;
-}
-
-#equals {
-  color: #ffffff;
-  background-color: #9d3ca9;
-}
-
-#clear {
-  background-color: #e33939;
-}
-
-.operator {
-  background-color: #a5a5a5;
-  color: #ffffff;
-}
-
-.number {
-  background-color: #333333;
-  color: white;
-}
-
-button {
-  width: 100%;
-  height: 100%;
-  font-family: 'Lato';
-  font-size: 35px;
-  border-radius: 0;
-  border-style: 1px solid rgba(0,0,0,0.2);
-  // box-shadow: inset 0px 0px 2px 1px rgba(0,0,0,0.2);
-}
-
-button:focus {
-  outline:0;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 }
