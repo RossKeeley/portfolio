@@ -1,3 +1,5 @@
+
+
 // Main header container
 header {
   top: 0;
@@ -28,23 +30,54 @@ header {
   // Navigation menu unordered list
   #menu {
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
+    // display: flex;
     padding: 0;
     // List item
     li {
       position: relative;
       list-style: none;
-      display: flex;
+      // display: flex;
       align-items: center;
       // Link within list item
       a {
         position: relative;
-        display: inline-block;
+        // display: inline-block;
         margin: 2px 5px;
         color: #111;
         text-decoration: none;
       }
+    }
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 669px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #logo {
+    width: 100%;
+  }
+  #navbar {
+    width: 100%;
+  }
+  #menu {
+    // flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    a {
+      // display: list-item;
+      width: 100%;
+    }
+  }
+}
+@media only screen and (min-width: 670px) {
+  #menu {
+    display: flex;
+    flex-wrap: wrap;
+    a {
+      // display: inline-block;
     }
   }
 }

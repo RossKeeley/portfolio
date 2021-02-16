@@ -1,24 +1,76 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .banner {
-    
+    padding: 0 8%;
+    // Main title
+    h1 {
+      font-size: 50px;
+      line-height: 40px;
+    }
+    // Secondary title
+    h2 {
+      font-size: 25px;
+      line-height: 15px;
+    }
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .banner {
+    padding: 0 30px;
+    // Main title
+    h1 {
+      font-size: 70px;
+      line-height: 60px;
+    }
+    // Secondary title
+    h2 {
+      font-size: 30px;
+      line-height: 20px;
+    }
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .banner {
+    padding: 0 70px;
+    // Main title
+    h1 {
+      font-size: 80px;
+      line-height: 70px;
+    }
+    // Secondary title
+    h2 {
+      font-size: 30px;
+      line-height: 20px;
+    }
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .banner {
+    padding: 0 90px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .banner {
+    padding: 0 100px;
+    // Main title
+    h1 {
+      font-size: 75px;
+      line-height: 65px;
+    }
+    // Secondary title
+    h2 {
+      font-size: 30px;
+      line-height: 25px;
+    }
+  }
 }
 
 // Main banner box
@@ -38,7 +90,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 100px;
   // Name and title
   .description  {
     text-align: left;
@@ -46,8 +97,6 @@
     // Main title
     h1 {
       color: #383737;
-      font-size: 75px;
-      line-height: 65px;
       background-color: rgb(255 255 255);
       padding: 5px;
       margin: 0;
@@ -55,8 +104,6 @@
     // Secondary title
     h2 {
       color: #383737;
-      font-size: 30px;
-      line-height: 25px;
       background-color: rgb(255 255 255);
       padding: 5px;
       width: 310px;
