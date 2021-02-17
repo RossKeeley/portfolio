@@ -5,7 +5,7 @@
 
 window.addEventListener("resize", () => {
   var width = screen.width;
-  var x = document.getElementById("item");
+  var x = document.getElementById("dropDown");
   if (width < 670) {
     x.style.display = "none";
   } else {
@@ -14,7 +14,7 @@ window.addEventListener("resize", () => {
 });
 
 function myFunction() {
-  var x = document.getElementById("item");
+  var x = document.getElementById("dropDown");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {

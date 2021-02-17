@@ -20,7 +20,7 @@ nav {
       letter-spacing: 2px;
       text-decoration: none;
     }
-    #item {
+    #dropDown {
       text-align: center;
       order: 2;
       .item {
@@ -63,7 +63,7 @@ nav .menu li {
   .logo {
     flex: 1;
   }
-  #item {
+  #dropDown {
     width: 100%;
     display: none;
     order: 2;
@@ -78,7 +78,7 @@ nav .menu li {
 }
 
 @media only screen and (min-width: 670px) {
-  #item {
+  #dropDown {
     display: block;
     order: 1;
     .item {
