@@ -32,9 +32,8 @@
     <script type="text/javascript">
       <% if (template !== 'pomodoro-clock' && template !== 'random-quote-generator') { %>
         <%- include(`../public/javascripts/${javascript}.js`); %>
-      <% } else { %>
-        <%- include('../public/javascripts/index.js'); %>
       <% } %>
+      <%- include('../public/javascripts/index.js'); %>
     </script>
   </body>
 </html>
