@@ -14,51 +14,48 @@
     align-items: center;
     height: auto;
     width: 100%;
-  }
-
-  .banner {
-    width: 60%;
-    height: 80px;
-    padding: 5px 15px;
-    z-index: 5;
-    background: #25b99a;
-    /*box-shadow: x y blur rgba(color setting)*/
-    box-shadow: 0px 2px 4px rgba(44,62,80,0.15);
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-  }
-
-  .banner input {
-    width: 100%;
-    height: 50px;
-    float: left;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 400;
-    text-indent: 18px;
-    /* The text indent isn't defined in here so that the text will overflow
-    to the left, showing the user that there is more text out of view
-    to the left */
-    background: rgba(255,255,255,0.2);
-    background-position: 15px 15px 15px 15px;
-    border-radius: 5px 25px 25px 5px;
-    border: 0px;
-    box-shadow: none;
-    outline: none;
-  }
-
-  .banner button {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    right: 15px;
-    z-index: 2;
-    border-radius: 25px;
-    background: #fff;
-    border: 0px;
-    box-shadow: none;
-    outline: none;
-    cursor: pointer;
+    .banner {
+      width: 60%;
+      height: 80px;
+      padding: 5px 15px;
+      z-index: 5;
+      background: #25b99a;
+      /*box-shadow: x y blur rgba(color setting)*/
+      box-shadow: 0px 2px 4px rgba(44,62,80,0.15);
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      input {
+        width: 100%;
+        height: 50px;
+        float: left;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+        text-indent: 18px;
+        /* The text indent isn't defined in here so that the text will overflow
+        to the left, showing the user that there is more text out of view
+        to the left */
+        background: rgba(255,255,255,0.2);
+        background-position: 15px 15px 15px 15px;
+        border-radius: 5px 25px 25px 5px;
+        border: 0px;
+        box-shadow: none;
+        outline: none;
+      }
+      button {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 15px;
+        z-index: 2;
+        border-radius: 25px;
+        background: #fff;
+        border: 0px;
+        box-shadow: none;
+        outline: none;
+        cursor: pointer;
+      }
+    }
   }
 
   .banner button svg {
