@@ -42,6 +42,17 @@ nav .menu li {
 .toggle {
   cursor: pointer;
   order: 1;
+  // width: 50px;
+  // display: flex;
+  // justify-content: center;
+  i {
+    transition: 0.2s;
+  }
+}
+.toggle:hover {
+  i {
+    transform: scale(1.2);
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */
