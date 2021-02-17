@@ -47,8 +47,15 @@
 .container {
   margin: auto;
   background-color: #fff;
-  width: 700px;
+  width: 100%;
+  max-width: 700px;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 850px) {
+  .page-content {
+    width: 100%;
+  }
 }
