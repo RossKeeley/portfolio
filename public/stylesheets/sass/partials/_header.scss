@@ -1,83 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-
-// Main header container
-header {
-  top: 0;
-  width: auto;
-  height: 80px;
-  padding: 0px 20px;
-  z-index: 1000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: 0.5s;
+nav {
   background-color: #fff;
-  // Left side container
-  // Page Title or Logo
-  #logo {
+  padding: 5px 20px;
+  ul {
+    list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    // Left side title or logo
-    a {
+    .logo {
       color: #111;
       text-transform: uppercase;
       font-weight: 600;
       letter-spacing: 2px;
       text-decoration: none;
     }
-  }
-  // Right side container
-  // Navigation menu unordered list
-  #menu {
-    position: relative;
-    // display: flex;
-    padding: 0;
-    // List item
-    li {
-      position: relative;
-      list-style: none;
-      // display: flex;
-      align-items: center;
-      // Link within list item
-      a {
-        position: relative;
-        // display: inline-block;
-        margin: 2px 5px;
-        color: #111;
-        text-decoration: none;
+    #item {
+      text-align: center;
+      order: 2;
+      .item {
+        transition: 0.3s;
       }
+    }
+    a {
+      color: #111;
+      text-decoration: none;
+      // display: block;
     }
   }
 }
 
+nav .menu li {
+  padding: 15px 5px;
+}
+
+.toggle {
+  cursor: pointer;
+  order: 1;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 669px) {
-  header {
-    display: flex;
-    flex-wrap: wrap;
+  .menu {
+    justify-content: center;
   }
-  #logo {
-    width: 100%;
+  .logo {
+    flex: 1;
   }
-  #navbar {
+  #item {
     width: 100%;
-  }
-  #menu {
-    // flex-wrap: wrap;
-    width: 100%;
-    position: relative;
-    a {
-      // display: list-item;
-      width: 100%;
+    display: none;
+    order: 2;
+    .item:hover {
+      background-color: #f7f7f7;
+      transform: scale(1.1);
     }
+  }
+  .toggle {
+    order: 1;
   }
 }
+
 @media only screen and (min-width: 670px) {
-  #menu {
-    display: flex;
-    flex-wrap: wrap;
-    a {
-      // display: inline-block;
+  #item {
+    // display: block;
+    order: 1;
+    .item {
+      display: inline-block;
+      width: auto;
     }
+    .item:hover {
+      transform: scale(1.1);
+    }
+  }
+  .toggle {
+    display: none;
+  }
+  .logo {
+    order: 0;
   }
 }
