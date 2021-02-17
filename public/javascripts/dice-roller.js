@@ -1,6 +1,7 @@
 var dice = document.querySelector('.dice');
 var allDots = Array.from(document.getElementsByClassName('dot'));
-
+allDots.forEach(dot => dot.classList.remove('dot'));
+allDots[4].classList.add('dot');
 function rollDice() {
   let randomNumber = Math.floor(Math.random() * 6) + 1;
   allDots.forEach(dot => dot.classList.remove('dot'));
