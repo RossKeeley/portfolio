@@ -11,29 +11,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  #main {
-
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
-
 body {
   background-color: #fafafa;
   font-family: 'Poppins';
@@ -58,7 +35,7 @@ a {
   #main {
     padding: 50px 8%;
     max-width: 100vw;
-    min-height: 80vh;
+    min-height: 100vh;
     // background-color: #f5f6ff;
   }
 }
