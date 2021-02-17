@@ -3,8 +3,13 @@
   background-color: pink;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .container {
-  min-width: 660px;
+  width: 100%;
+  padding-top: 20px;
 }
 
 #quote-box {
@@ -15,13 +20,12 @@
   align-items: center;
   justify-content: center;
   background-color: white;
-  padding: 30px;
+  padding: 30px 40px;
   border-radius: 8px;
 }
 
 .quote {
-  padding: 0px 30px;
-  min-width: 400px;
+  width: 100%;
   min-height: 200px;
   text-align: justify;
 }
@@ -29,6 +33,7 @@
 #author {
   display: block;
   text-align: right;
+  margin-top: 30px;
 }
 
 #text {
@@ -38,7 +43,6 @@
 #button-box {
   display: flex;
   justify-content: space-between;
-  padding: 0px 30px;
 }
 
 #new-quote:focus {
@@ -54,4 +58,15 @@
 .fa-random {
   color: white;
   padding-right: 5px;
+}
+
+@media only screen and (max-width: 750px) {
+  #quote-box {
+    width: 100%;
+    min-height: 300px;
+    min-width: 275px;
+  }
+  .quote p {
+    font-size: 14px;
+  }
 }
