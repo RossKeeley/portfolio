@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../sass/pages/dice-roller.scss"],"names":[],"mappings":"AACA,MACE,yBAGF,WACE,aACA,uBACA,mBACA,iBAEA,iBACE,YACA,aACA,mBACA,yBACA,aACA,eACA,eAEA,sBACE,kBACA,sBACA,WACA,YACA,cAGF,2BACE,WACA,YACA","file":"dice-roller.css"}
+{"version":3,"sourceRoot":"","sources":["../../sass/pages/dice-roller.scss"],"names":[],"mappings":"AACA,MACE,yBAGF,WACE,aACA,uBACA,mBACA,iBAEA,iBACE,YACA,aACA,mBACA,yBACA,aACA,eACA,eACA,wCAEA,qBACE,WACA,YACA,WAGF,sBACE,kBACA,sBACA,WACA,YACA","file":"dice-roller.css"}

@@ -17,19 +17,20 @@
     display: flex;
     flex-wrap: wrap;
     padding: 12.5px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 12%);
+    // The divs containing each dot
+    div {
+      width: 60px;
+      height: 60px;
+      margin: 9px;
+    }
     // Each individual dot on the dice face
     .dot {
       border-radius: 50%;
       background-color: black;
       width: 60px;
       height: 60px;
-      margin: 12.5px;
-    }
-    // the divs containing each dot
-    .dice div {
-      width: 60px;
-      height: 60px;
-      margin: 12.5px;
+      margin: 9px;
     }
   }
 }
